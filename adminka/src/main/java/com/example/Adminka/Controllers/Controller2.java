@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/entity-two")
+@RequestMapping("/bus")
 public class Controller2 {
     @GetMapping
     public Bus getEntityTwo() {
